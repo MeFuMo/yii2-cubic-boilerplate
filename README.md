@@ -10,6 +10,12 @@ which is a separate Yii application.
 - Configured for shared hosting environment as per [https://yii2-framework.readthedocs.io/en/stable/guide/tutorial-shared-hosting/] (Yii2 Docs).
 - Pretty url enabled for frontend tier.
 
+EXTENSIONS
+==========
+
+- Yii2 Migrate Command [https://github.com/dmstr/yii2-migrate-command] (link)
+- yii2-user [https://github.com/dektrium/yii2-user] (link)
+
 Documentation is at [docs/guide/README.md](docs/guide/README.md).
 
 DIRECTORY STRUCTURE

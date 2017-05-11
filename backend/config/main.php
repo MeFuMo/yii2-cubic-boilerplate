@@ -19,9 +19,11 @@ return [
 			],
 		],
 		'user' => [
-			'identityClass' => 'common\models\User',
-			'enableAutoLogin' => true,
-			'identityCookie' => ['name' => '_identity-backend',
+			// commented out per yii2-user config
+			// 'identityClass' => 'common\models\User',
+			// 'enableAutoLogin' => true,
+			'identityCookie' => [
+				'name' => '_identity-backend',
 				'httpOnly' => true,
 				'path' => '/cubic-backend',
 			],
@@ -31,6 +33,7 @@ return [
 			'name' => 'cubic-backend',
 			'cookieParams' => [
 				'path' => '/cubic-backend',
+				'httpOnly' => true,
 			],
 		],
 		'log' => [
@@ -53,6 +56,12 @@ return [
 	  ],
 	  ],
 	 */
+	],
+	'modules' => [
+		'user' => [
+			// following line will restrict access to profile, recovery, registration and settings controllers from backend
+			'as backend' => 'dektrium\user\filters\BackendFilter',
+		],
 	],
 	'params' => $params,
 ];
