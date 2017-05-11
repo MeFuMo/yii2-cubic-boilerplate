@@ -33,7 +33,7 @@ return [
         'path' => 'dev',
         'setWritable' => [
             'backend/runtime',
-            'public_html/cubic-admin/assets',
+            'public_html/cubic-backend/assets',
             'frontend/runtime',
             'public_html/assets',
         ],
