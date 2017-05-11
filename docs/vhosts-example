@@ -1,6 +1,9 @@
-<Directory "/path/to/the/web/directory/">
-  Options Indexes 
-  FollowSymLinks MultiViews 
-  AllowOverride All 
-  Require all granted
-</Directory>
+<VirtualHost *:80>
+	ServerName cubic.localhost
+	DocumentRoot d:/wamp/www/yii2-cubic-boilerplate/public_html
+	<Directory  "d:/wamp/www/yii2-cubic-boilerplate/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
