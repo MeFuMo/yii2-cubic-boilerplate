@@ -10,6 +10,8 @@ return [
 	'modules' => [
 		'user' => [
 			'class' => 'dektrium\user\Module',
+			'enableFlashMessages' => false,
+			'admins' => ['superadmin']
 		],
 	]
 ];
