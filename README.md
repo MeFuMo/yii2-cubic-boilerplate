@@ -13,8 +13,9 @@ which is a separate Yii application.
 EXTENSIONS
 ==========
 
-- Yii2 Migrate Command [https://github.com/dmstr/yii2-migrate-command] (link)
-- yii2-user [https://github.com/dektrium/yii2-user] (link)
+- Yii2 Migrate Command [https://github.com/dmstr/yii2-migrate-command]
+- yii2-user [https://github.com/dektrium/yii2-user]
+- yii2-rbac [https://github.com/dektrium/yii2-rbac]
 
 Documentation is at [docs/guide/README.md](docs/guide/README.md).
 
